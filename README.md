@@ -1,37 +1,27 @@
-﻿# [CC1310](https://github.com/sochub/CC1310)
-[![sites](SoC/qitas.png)](http://www.qitas.cn) 
-####  qitas@qitas.cn
-#### 父级：[TI](https://github.com/sochub/TI) 
-#### 归属：[Cortex M3](https://github.com/sochub/CM3) 
+﻿# [CH557](https://github.com/SoCXin/CH557)
 
-SimpleLink Sub1GHz SoC [CC1310](http://www.ti.com.cn/product/cn/CC1310?keyMatch=CC1310&tisearch=Search-CN-Everything) 系列含有一个ARM Cortex-M3内核（工作频率48MHz），专用无线电控制器 (Cortex-M0) 可处理存储在 ROM 或 RAM 中的低级射频协议命令，因而可确保超低功耗和灵活性。
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-关键参数：
+#### [Vendor](https://github.com/SoCXin/Vendor)：[WCH](https://github.com/SoCXin/WCH)
+#### [Core](https://github.com/SoCXin/8051)：[E8051](https://github.com/SoCXin/8051)
+#### [Level](https://github.com/SoCXin/Level)：12/48MHz
 
-* 32KB、64KB 和 128KB 系统内可编程闪存，20KB超低泄漏 SRAM
-* 宽电源电压：1.8 至 3.8V
-* 48MHz有源模式微控制器 (MCU)：2.5mA (51µA/MHz)
-* 有源模式传感器控制器（24 MHz）：0.4mA + 8.2µA/MHz
-* 传感器控制器，每秒唤醒一次来执行一次 12 位 ADC 采样：0.95µA
-* 待机电流：0.7µA（实时时钟 (RTC) 运行，RAM 和 CPU 保持）
-* 关断电流：185nA（发生外部事件时唤醒）
-* RX：5.4mA ; TX（+10dBm时）：13.4mA
-* 接收器灵敏度：远距离模式下为 –124dBm；50kbps 时为 –110dBm
-* 可编程输出功率：时最高可达 +9dBm
+## [CH557简介](https://github.com/SoCXin/CH557/wiki)
 
-封装：
-* 7mm × 7mm RGZ VQFN48 封装（30 个通用输入/输出 (GPIO)）
-* 5mm × 5mm RHB VQFN32 封装（15 个 GPIO）
-* 4mm × 4mm RSM VQFN32 封装（10 个 GPIO）
+[CH557](https://github.com/SoCXin/CH557)是一款兼容MCS51的增强型E8051内核单片机，79%的指令是单字节单周期指令，运行速度快，内置64KB Flash-ROM，8K+256B RAM。
+CH557内置了USB主机控制器和收发器，内置4端口USB root-hub根集线器，支持USB 2.0全速12Mbps或者低速1.5Mbps，支持USB Host主机模式和USB Device设备模式。支持最大64字节数据包，内置FIFO，支持DMA。
+CH557提供丰富的接口资源，包括2组异步串口、6路PWM、14通道电容触摸按键、128组RGB三色LED控制器，其他包括2路SPI、IIC主机和IIC从机、14路12位ADC，支持电压比较；内置3组定时器和2路信号捕捉；支持最多58个GPIO。
 
-### [收录资源](https://github.com/sochub/CC1310)
+[![sites](docs/CH557.png)](http://www.wch.cn/products/CH557.html)
 
-* [参考文档](docs/)
-* [参考资源](src/)
-* [模板工程](demo/)
 
-### [替换方案](https://github.com/sochub/CC1310)
+### [资源收录](https://github.com/SoCXin/CH557)
 
-* CC1310 Sub1GHz SoC替换方案[CC1350](https://github.com/sochub/CC1350)
+* [文档](docs/)
+* [资源](src/)
 
-##  [SoC资源平台](http://www.qitas.cn)
+### [选型建议](https://github.com/SoCXin)
+
+[CH557](https://github.com/SoCXin/CH557)与[CH545](https://github.com/SoCXin/CH545)定位相当
+
+###  [SoC芯平台](http://www.SoC.Xin)
