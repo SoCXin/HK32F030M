@@ -2,7 +2,7 @@
     "type":"SoC",
     "name":"HK32F030M",
     "title": "HK HK32F030M MCU",
-    "description":"HK Power MCU",
+    "description":"HK low cost MCU",
     "Core": {
         "CoreNum": 1,
         "Core":"Cortex-M0",
@@ -22,6 +22,8 @@
     "series":["HK32F030M"],
     "package":["TSSOP20","QFN20"],
     "peripheral": ["ADC","UART","SPI","IIC"],
+    "temp": [-40,85],
+    "volt": [1.8,3.6],
     "ESD": {
         "HBM": 4000,
         "CDM": 500
@@ -30,7 +32,7 @@
         "Cortex-M0",
         "HK",
         "ADC","I2C","RTC","SPI","UART",
-        "5.5V","2.7V"
+        "3.6V","1.8V"
     ]
 }
 
