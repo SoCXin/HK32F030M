@@ -9,15 +9,14 @@ Debug
 *.DS_Store
 *.autosave
 *~
-*#
-Change*
-CHANGE*
-# README*
+~*
+.settings
+# .mxproject
+# Change*
+# CHANGE*
 COPY*
 *CONTRIBU*
 LICENSE*
-HACKING*
-Doxyfile
 *.swp
 *.lck
 *.log
@@ -28,4 +27,40 @@ Doxyfile
 *.map
 *.hex
 *.bin
-*bak
+*.bak
+# *.txt
+*.lst
+*.sct
+*.elf
+# *.ini
+*_sc*
+*cm23*
+*cm33*
+# *cm3*
+# *cm4*
+# *cm7*
+*cm1*
+core_armv8*
+*.uvgu*
+# .gitmodules
+# *.png
+*.jpg
+*.rst
+.travis.yml
+tests
+# mk
+*.launch
+DebugConfig
+RTE
+*.d
+*.o
+*.axf
+*.htm
+*.lnp
+*.scvd
+*.iex
+# !sRCA.bin
+Obj
+List
+Exe
+TEST/
